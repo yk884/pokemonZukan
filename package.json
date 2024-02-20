@@ -1,6 +1,6 @@
 {
   "name": "pokemon-app",
-  "homepage": "https://yk884.github.io/pokemonZukan",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

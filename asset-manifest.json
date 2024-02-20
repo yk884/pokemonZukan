@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pokemonZukan/static/css/main.9c2d22a5.css",
+    "main.css": "/pokemonZukan/static/css/main.5cae6a6e.css",
     "main.js": "/pokemonZukan/static/js/main.551a37f8.js",
     "index.html": "/pokemonZukan/index.html",
-    "main.9c2d22a5.css.map": "/pokemonZukan/static/css/main.9c2d22a5.css.map",
+    "main.5cae6a6e.css.map": "/pokemonZukan/static/css/main.5cae6a6e.css.map",
     "main.551a37f8.js.map": "/pokemonZukan/static/js/main.551a37f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2d22a5.css",
+    "static/css/main.5cae6a6e.css",
     "static/js/main.551a37f8.js"
   ]
 }

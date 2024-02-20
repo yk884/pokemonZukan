@@ -2,6 +2,7 @@
   text-align: center;
   width: 100%;
   height: 100vh;
+  margin-top: 40px;
 }
 
 .pokemonCardContainer{
@@ -22,7 +23,7 @@
 
 .btn button {
   padding: 10px 20px;
-  background-color: #599baf;
+  background-color: #288bf5;
   border: none;
   color: #fff;
   border-radius: 8px;
@@ -33,4 +34,17 @@
 .btn button:active {
   transform: scale(0.9);
 
+}
+
+@media (max-width:767px){
+.pokemonCardContainer{
+  grid-template-columns: auto;
+  padding: 0 20px;
+}
+.pokemonCardContainer .card{
+  width: 100%;
+}
+.nav{
+  width: 100%;
+}
 }

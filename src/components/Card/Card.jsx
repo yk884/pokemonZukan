@@ -9,7 +9,7 @@ const Card = ({pokemon}) => {
         </div>
         <h3 className='cardName'>{pokemon.name}</h3>
         <div className="cardType">
-            <h4>タイプ</h4>
+            <h4>Type</h4>
             {pokemon.types.map((type)=>{
                 return (
                     <div key={type.type.name}>
@@ -20,13 +20,13 @@ const Card = ({pokemon}) => {
         </div>
         <div className="cardInfo">
             <div className="cardData">
-                <p className='title'>重さ：{pokemon.weight}</p>
+                <p className='title'>Weight：{parseFloat(pokemon.weight)/10}kg</p>
             </div>
             <div className="cardData">
-                <p className='title'>高さ：{pokemon.height}</p>
+                <p className='title'>Height：{parseFloat(pokemon.height)/10}m</p>
             </div>
             <div className="cardData">
-                <p className='title'>アビリティ：{pokemon.abilities[0].ability.name}</p>
+                <p className='title'>Ability：{pokemon.abilities[0].ability.name}</p>
             </div>
         </div>
     </div>

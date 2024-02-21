@@ -14,6 +14,7 @@ function App() {
 
 
   useEffect(()=>{
+    document.title="Pokemon Zukan"
     const fetchPokemonData =async () => {
       // 全てのポケモンデータを取得
       let res = await getAllPokemon(initialURL);
